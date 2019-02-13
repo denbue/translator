@@ -68,7 +68,7 @@
           $.ajax({
             type: "POST",
             //async: false,
-            url: "https://server-translate.wedeploy.io/translate",
+            url: "https://google-translate-proxy.herokuapp.com/translate",
             data: { "text": source, "from": "en", "to": languages[i].code },
             success: function(translation) {
               var code = languages[i].code,

@@ -1,8 +1,9 @@
 # Translator
 
-Demo: https://server-translate.wedeploy.io/
+Try here: https://server-translate.wedeploy.io/
+The translator is embedded in other applications, hence its missing any kind of independent styling.
 
-This tool translates Englis input to a number of languages.
+This tool translates English input to a number of languages.
 
 1. A node api recieving and processing text
 2. A jquery form including config with languages and UX features
